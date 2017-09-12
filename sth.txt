@@ -1,4 +1,4 @@
-assert 断言
+﻿assert 断言
 定义在<assert.h>中，如果它的条件返回错误，则终止程序执行，原型定义：
 #include <assert.h>
 void assert( int expression );
@@ -16,3 +16,11 @@ ASSERT ()是一个调试程序时经常使用的宏，在程序运行时它计�
 排序：选择排序；插入排序；归并排序；快速排序
 查找：二分查找
 数据结构：栈；队列；堆
+
+三路快排
+对撞指针
+判断一个字符是否为数字和字母 isalnum(s[L])
+			toupper tolower
+双索引技术 water
+
+滑动窗口问题 Leetcode209、3、~76、438
