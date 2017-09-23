@@ -31,4 +31,13 @@ ASSERT ()是一个调试程序时经常使用的宏，在程序运行时它计�
 	操作 insert find erase change(map)
 	for(set<int>::iterator iter=resultSet.begin();iter !=resultSet.end();iter++)
 	set 用法349
-	map 用法350
+	map 用法350 242
+	map set 底层平衡二叉树
+	unorderd_map unordered_set 底层哈希表
+	查找表经典问题 1 hash[nums[i]]=include   15 18 16
+	                 if(hash.find(numTofind)!=hash.end())
+pair<int,int>
+	pair.first pair.second
+	 for(unordered_map<int,int>::iterator it=record.begin();
+               it!=record.end();it++)
+                res=res+(it->second)*(it->second-1);
